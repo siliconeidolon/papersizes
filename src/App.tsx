@@ -48,10 +48,10 @@ const Sheet = ({ paperSize }: { paperSize: PaperSize}) => {
 
   return (
     <div className="sheet" style={style}>
-      <span>{name}</span>
-      <p>mm: {`${mm[0]} x ${mm[1]}`}</p>
-      <p>in: {`${inches[0]} x ${inches[1]}`}</p>
-      <p>pts: {`${points[0]} x ${points[1]}`}</p>
+      <span className="sheet-name">{name}</span>
+      <p>mm: {`${mm[0]}x${mm[1]}`}</p>
+      <p>in: {`${inches[0]}x${inches[1]}`}</p>
+      <p>pts: {`${points[0]}x${points[1]}`}</p>
     </div>
   )
 }
