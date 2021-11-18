@@ -1,4 +1,4 @@
-import { PaperFormat } from './App'
+import { PaperFormat } from "./types";
 
 export const data: Array<PaperFormat> = [
   {
